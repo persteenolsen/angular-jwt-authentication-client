@@ -47,7 +47,7 @@ module.exports = {
         new webpack.DefinePlugin({
            
 		// config: JSON.stringify({  apiUrl: 'http://localhost:4000'  })
-        config: JSON.stringify({ apiUrl: 'https://baerer.auth.api.core.persteenolsen.com/' })
+         config: JSON.stringify({ apiUrl: 'https://baerer.auth.api.core.persteenolsen.com/' })
 		
         })
     ],
